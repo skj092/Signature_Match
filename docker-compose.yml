@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  signature-verifier:
+    build: .
+    image: sonujha092/siamese:v0.1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app

@@ -1,0 +1,6 @@
+__pycache__
+*.pth
+*.csv
+*.jpg
+*.png
+sign_data/
